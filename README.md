@@ -5,3 +5,20 @@ These tickers can then be used to download the stock prices with R-packages such
 
 
 
+## Renv for package management
+
+
+
+This project uses `renv` for package mangement. New users should consider using 
+
+
+
+```R
+if (!require(renv)) install.packages("renv")
+
+renv::restore()
+```
+
+
+
+See the [renv documentation](https://rstudio.github.io/renv/articles/renv.html) for more infomation about `renv`. 
